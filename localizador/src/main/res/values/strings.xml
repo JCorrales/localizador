@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Localizador</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_item_image_descripcion">Descripción de Imagen</string>
+    <string name="list_item_title_ph">Titulo</string>
+    <string name="list_item_subtitle_ph">Subtítulo</string>
+
+
+
+    <string name="titulo_lista_alumnos">Lista de Alumnos</string>
+    <string name="titulo_lista_facultades">Lista de Facultades</string>
+
+    <string name="alumno_list_item_nombre_apellido_ph">Nombre y Apellido</string>
+    <string name="alumno_list_item_email_ph">example@email.com</string>
+    <string name="alumno_list_item_orden_ph">1/7</string>
+
+    <string name="alumno_detalle_nombre_apellido_ph">Nombre y Apellido</string>
+    <string name="alumno_detalle_email_ph">example@email.com</string>
+    <string name="alumno_detalle_direccion_ph">Florida y España</string>
+    <string name="alumno_detalle_telefono_ph">0972 798 327</string>
+
+
+    <string name="detalles_alumno">Detalles de Alumno</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alumno_form">AlumnoFormActivity</string>
+    <string name="title_activity_login">Localizador</string>
+
+</resources>

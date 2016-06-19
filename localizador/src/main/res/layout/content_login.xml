@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_login"
+    tools:context="py.una.sgf.localizador.activities.LoginActivity">
+
+    <TextView
+        android:id="@+id/cedulaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cedula del Chofer: "
+        android:padding="3dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cedulaEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cedulaLabel"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/ipLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP del servidor: "
+        android:layout_below="@+id/cedulaEditText"
+        android:padding="3dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="sgf-aceshigh.rhcloud.com"
+        android:ems="10"
+        android:id="@+id/serverIpEditText"
+        android:layout_below="@+id/ipLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/cedulaEditText"
+        android:layout_alignEnd="@+id/cedulaEditText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:id="@+id/button"
+        android:onClick="sendData"
+        android:layout_below="@+id/serverIpEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+</RelativeLayout>
